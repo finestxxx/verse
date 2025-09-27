@@ -237,7 +237,7 @@ body{
 .site-footer{ padding:18px 4%; text-align:center; color:var(--muted); border-top:1px solid rgba(255,255,255,0.02); }
 
 /* ========== Animations on load (section reveal) ========== */
-.section { opacity:0; transform: translateY(10px); animation: reveal .7s ease forwards; }
+.section { opacity:0; animation: reveal .7s ease forwards; }
 .section:nth-of-type(1){ animation-delay: 0.05s; }
 .section:nth-of-type(2){ animation-delay: 0.18s; }
 .section:nth-of-type(3){ animation-delay: 0.30s; }
@@ -246,7 +246,7 @@ body{
 .section:nth-of-type(6){ animation-delay: 0.72s; }
 
 @keyframes reveal {
-  to { opacity:1; transform: translateY(0); }
+  to { opacity:1; }
 }
 
 @keyframes slide-down {
