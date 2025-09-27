@@ -1,0 +1,231 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VÉRSE — Modern Fashion</title>
+
+  <!-- SVG Favicon -->
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-family=%22Montserrat, sans-serif%22 font-weight=%22800%22 fill=%22%23ff6f91%22>V</text></svg>">
+
+  <!-- Fonts -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome Icons -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <div class="bg-accents" aria-hidden="true">
+    <span class="bubble b1"></span>
+    <span class="bubble b2"></span>
+    <span class="bubble b3"></span>
+    <span class="bubble b4"></span>
+    <span class="bubble b5"></span>
+  </div>
+
+  <div class="site">
+    <header class="site-header">
+      <div class="brand">
+        <a href="#" class="logo">VÉRSE</a>
+      </div>
+
+<input id="nav-toggle" type="checkbox" class="nav-toggle" />
+  <label for="nav-toggle" class="hamburger" aria-hidden="false" aria-label="Toggle navigation">
+    <span></span><span></span><span></span>
+  </label>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#collection">Collection</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero section">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <h1 id="hero-title" class="hero-title">STYLE <span class="gradient-text">REDEFINED</span></h1>
+        <p id="hero-sub" class="hero-sub">Contemporary silhouettes • Sustainable materials • Bold statements</p>
+        <a class="btn shop-cta" href="#collection">Shop Now</a>
+      </div>
+
+      <div class="hero-visual" role="img" aria-label="Model wearing featured fashion piece">
+        <img id="hero-image" src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1200&auto=format&fit=crop" alt="Model wearing outfit">
+      </div>
+    </div>
+  </section>
+
+  <section id="collection" class="section collection">
+    <div class="container">
+      <h2 class="section-title">Featured Collection</h2>
+      <p class="muted">Selected looks from the new season</p>
+
+      <div id="collection-grid" class="grid grid-2">
+        <article class="card">
+          <figure class="card-media">
+            <img src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?q=80&w=800&auto=format&fit=crop" alt="The Urbanist Jacket">
+            <a class="card-btn" href="#">View Item</a>
+          </figure>
+          <div class="card-body">
+            <h3 class="item-name">The Urbanist Jacket</h3>
+            <p class="price">₦125,000</p>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="card-media">
+            <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=800&auto=format&fit=crop" alt="Flow Trousers">
+            <a class="card-btn" href="#">View Item</a>
+          </figure>
+          <div class="card-body">
+            <h3 class="item-name">Flow Trousers</h3>
+            <p class="price">₦75,000</p>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="card-media">
+            <img src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?q=80&w=800&auto=format&fit=crop" alt="The Minimalist Tee">
+            <a class="card-btn" href="#">View Item</a>
+          </figure>
+          <div class="card-body">
+            <h3 class="item-name">The Minimalist Tee</h3>
+            <p class="price">₦45,000</p>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="card-media">
+            <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?q=80&w=800&auto=format&fit=crop" alt="Aether Sneakers">
+            <a class="card-btn" href="#">View Item</a>
+          </figure>
+          <div class="card-body">
+            <h3 class="item-name">Aether Sneakers</h3>
+            <p class="price">₦95,000</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="container about-grid">
+      <div class="about-media">
+        <img id="about-image" src="images/5.jpg" alt="Brand aesthetics">
+      </div>
+      <div class="about-content">
+        <h2 id="about-title" class="section-title"><span class="gradient-text">About VÉRSE</span></h2>
+        <p id="about-short" class="muted">We craft seasonless pieces that last. Designed thoughtfully, produced sustainably, worn confidently.</p>
+        <p id="about-long">From fabric selection to final stitch, our process centers durability, comfort, and a clean aesthetic. We believe fashion should be an expression of confidence—minimal, bold, and intentional.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section lookbook">
+    <div class="container">
+      <h2 class="section-title">Lookbook</h2>
+      <div class="lookbook-wrapper">
+        <button class="scroll-btn prev" aria-label="Previous item"><i class="fas fa-chevron-left"></i></button>
+        <div class="horizontal-scroll" id="lookbook-scroll">
+          <figure class="lb-item">
+            <img src="images/1.jpg" alt="Lookbook image 1">
+          </figure>
+          <figure class="lb-item">
+            <img src="images/2.jpg" alt="Lookbook image 2">
+          </figure>
+          <figure class="lb-item">
+            <img src="images/3.jpg" alt="Lookbook image 3">
+          </figure>
+          <figure class="lb-item">
+            <img src="images/4.jpg" alt="Lookbook image 4">
+          </figure>
+          <!-- Add more items here -->
+        </div>
+        <button class="scroll-btn next" aria-label="Next item"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonials">
+    <div class="container">
+      <h2 class="section-title">What customers say</h2>
+      <div id="test-grid" class="test-grid">
+        <blockquote class="test-card">
+          The quality is unreal. I feel so confident in these pieces.
+          <footer>— Sarah L.</footer>
+        </blockquote>
+        <blockquote class="test-card">
+          Minimalist, chic, and sustainable. VÉRSE is my new go-to.
+          <footer>— David Chen</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container contact-grid">
+      <form id="contact-form" class="contact-form" action="#" method="post">
+        <h3>Contact</h3>
+        <label><input type="text" name="name" placeholder="Name" required></label>
+        <label><input type="email" name="email" placeholder="Email" required></label>
+        <label><textarea name="message" rows="4" placeholder="Message / Inquiry" required></textarea></label>
+        <div class="form-row">
+          <button class="btn submit" type="submit">Send</button>
+        </div>
+      </form>
+
+      <div class="social-float" aria-hidden="true">
+        <a href="#" class="sf" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="sf" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="sf" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="muted">© <span id="yr"></span> VÉRSE. All rights reserved.</p>
+  </div>
+</footer>
+  </div>
+ <script src="script.js" defer></script>
+  <script>
+    // small script only for year
+    document.getElementById('yr').textContent = new Date().getFullYear();
+
+code
+Code
+download
+content_copy
+expand_less
+IGNORE_WHEN_COPYING_START
+IGNORE_WHEN_COPYING_END
+// Lookbook scroller functionality (keeps original behavior)
+const lookbook = document.getElementById('lookbook-scroll');
+if (lookbook) {
+  const prevBtn = document.querySelector('.scroll-btn.prev');
+  const nextBtn = document.querySelector('.scroll-btn.next');
+  const itemWidth = 260 + 12; // lb-item width + gap
+
+  nextBtn.addEventListener('click', () => {
+    lookbook.scrollBy({ left: itemWidth, behavior: 'smooth' });
+  });
+
+  prevBtn.addEventListener('click', () => {
+    lookbook.scrollBy({ left: -itemWidth, behavior: 'smooth' });
+  });
+}
+  </script>
+
+</body>
+</html>
